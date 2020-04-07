@@ -1,7 +1,8 @@
 /** type {import(../typings/phaser)} */
 var config = {
-    type: Phaser.AUTO,
+    type: Phaser.CANVAS,
     mode:Phaser.Scale.FIT,
+    parent:'contenedor',
     width: window.innerWidth,
     height: window.innerHeight,
     autoResize: true,
